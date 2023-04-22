@@ -1,0 +1,61 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .image-container {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    background-image: url('https://www.altonivel.com.mx/wp-content/uploads/2018/02/presentacion-de-negocios-profesional.jpg');
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    margin-right: 20px;
+    float: left;
+  }
+  .text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center; /* Alinea el texto al centro */
+  }
+  
+  h1 {
+    text-align: justify; /* Justifica el texto */
+  }
+  
+  #boton-ir-web {
+    background-color: #4CAF50; /* Color de fondo */
+    color: white; /* Color de texto */
+    padding: 10px 20px; /* Espacio interno */
+    border: none; /* Borde */
+    border-radius: 5px; /* Radio del borde */
+    cursor: pointer; /* Cursor */
+    font-size: 16px; /* Tamaño de fuente */
+  }
+  
